@@ -76,6 +76,3 @@ function getTag(forWhat) {
 			return null;
 	}
 }
-
-var a = document.getElementById("ide").innerHTML;
-document.getElementById("ide").innerHTML = applyStyle(a);
