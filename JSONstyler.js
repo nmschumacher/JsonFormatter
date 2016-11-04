@@ -5,6 +5,8 @@
 * autor: nmschumacher
 **/
 
+// Basta chamar applyStyle() passando uma string contendo o código JSON formatado e será retornada a sring com o JSON estilizado.
+
 var corAtributos = '#0b3bc3'; //< Informe a cor que os atributos do JSON devem ter
 
 function applyStyle(texto) {
