@@ -58,7 +58,6 @@ String.prototype.getNextString = function(from) {
 String.prototype.applyStyle = function(style) {
 
 	switch(style) {
-
 		case 'attribute':
 			return getTag('attributeStart') + this + getTag('attributeEnd');
 		default:
@@ -69,7 +68,6 @@ String.prototype.applyStyle = function(style) {
 function getTag(forWhat) {
 
 	switch(forWhat) {
-
 		case 'attributeStart':
 			return '<span style="font-weight:bold;font-size:small;color:' + corAtributos + ';font-family:Ubuntu Mono,Menlo,Monaco,Consolas">';
 		case 'attributeEnd':
